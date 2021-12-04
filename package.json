@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/AntonyOtero/restaurant-page/issues"
   },
-  "homepage": "https://github.com/AntonyOtero/restaurant-page#readme"
+  "homepage": "https://github.com/AntonyOtero/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
 }
