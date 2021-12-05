@@ -24,6 +24,9 @@ body {
 }
 
 #content > div {
+  display: flex;
+  align-items: center;
+  position: relative;
   width: calc(100vw - (2 * 155px));
   max-width: 970px;
   height: 100vh;
