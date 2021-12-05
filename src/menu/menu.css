@@ -35,3 +35,13 @@
   margin: 0 0 20px 0;
   opacity: 75%;
 }
+
+@media (max-width: 490px) {
+  .item-name {
+    font-size: var(--font-size-h5);
+  }
+  
+  .item-price {
+    font-size: var(--font-size-md);
+  }
+}
