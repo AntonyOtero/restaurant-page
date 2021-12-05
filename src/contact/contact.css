@@ -1,0 +1,71 @@
+.contact {
+  justify-content: space-between;
+}
+
+address {
+  font-style: normal;
+}
+
+address p {
+  font-size: var(--font-size-h2);
+  font-weight: 700;
+}
+
+address a {
+  font-size: var(--font-size-h3);
+}
+
+form {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+}
+
+legend {
+  font-size: var(--font-size-h3);
+  margin: 0 0 20px;
+}
+
+form > div {
+  display: flex;
+}
+
+input,
+textarea,
+button {
+  background: transparent;
+  color: var(--color-copy);
+  border: 2px solid var(--color-copy);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input,
+textarea {
+  padding: 13px 0 13px 20px;
+  margin: 0 0 20px 0;
+  opacity: 75%;
+}
+
+textarea {
+  height: 135px;
+}
+
+input[name='pronoun'],
+input[name='name'] {
+  width: 50%;
+}
+
+input[name='pronoun'] {
+  margin-right: 20px;
+}
+
+input[name='message'] {
+  height: 135px;
+}
+
+button {
+  width: 180px;
+  height: 45px;
+  align-self: flex-end;
+}
