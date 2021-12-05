@@ -6,15 +6,30 @@
 
 .headline p {
   max-width: 540px;
-  font-size: var(--font-size-h5);
-}
-
-.headline p:first-of-type {
   margin: 0 0 30px 0;
+  font-size: var(--font-size-h5);
 }
 
 .cover-image {
   position: absolute;
   right: 43px;
+  width: 100%;
+  max-width: 425.85px;
   z-index: -1;
+}
+
+@media (max-width: 1200px) {
+  .home {
+    flex-direction: column;
+  }
+
+  .cover-image {
+    position: static;
+  }
+}
+
+@media (max-width: 490px) {
+  .headline p {
+    font-size: var(--font-size-md);
+  }
 }
