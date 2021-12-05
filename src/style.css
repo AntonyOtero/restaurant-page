@@ -6,6 +6,7 @@
   --font-size-h3: 1.953rem;
   --font-size-h4: 1.563rem;
   --font-size-h5: 1.25rem;
+  --font-size-md: 16px;
   --font-size-sm: 0.8rem;
 }
 
@@ -14,11 +15,24 @@ body {
   background: var(--color-background);
   color: var(--color-copy);
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: var(--font-size-md);
+}
+
+#content {
+  display: grid;
+  place-items: center;
 }
 
 #content > div {
   width: calc(100vw - (2 * 155px));
+  max-width: 970px;
   height: 100vh;
   margin: 0 155px;
+}
+
+@media (max-width: 1050px) {
+  #content > div {
+    width: calc(100vw - (2 * 30px));
+    margin: 60px 30px;
+  }
 }
