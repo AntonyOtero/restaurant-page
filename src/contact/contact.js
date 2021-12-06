@@ -6,14 +6,6 @@ const contact = () => {
   container.classList.add('contact')
 
   container.innerHTML = `
-    <address>
-      <p>
-        1150 Broadway Ave<br>
-        New York City,<br>
-        New York 11101<br>
-      </p>
-      <a href='tel+15553443447'>555.344.3447</a>
-    </address>
     <form action='' method='get' class='form-contact'>
       <legend>Any Questions or Comments?</legend>
       <div>
@@ -24,6 +16,14 @@ const contact = () => {
       <textarea name='message' id='message' placeholder='Message'></textarea>
       <button>Send</button>
     </form>
+    <address>
+      <p>
+        1150 Broadway Ave<br>
+        New York City,<br>
+        New York 11101<br>
+      </p>
+      <a href='tel+15553443447'>555.344.3447</a>
+    </address>
   `
 
   return container
