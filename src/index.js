@@ -4,9 +4,26 @@ import {menu} from './menu/menu'
 import {contact} from './contact/contact'
 import './style.css'
 
-const app = document.querySelector('#content')
+const components = {
+  home: home(),
+  menu: menu(),
+  contact: contact()
+}
 
-app.append(navbar())
-app.append(home())
-// app.append(menu())
-// app.append(contact())
+const App = document.querySelector('#content')
+
+App.append(navbar())
+App.append(components.home)
+
+const Navbar = document.querySelector('.navbar')
+
+Navbar.addEventListener('click', (e) => {
+  const active = document.querySelector('.selected')
+  if(e.target !== active){
+    active.classList.remove('selected')
+    e.target.classList.add('selected')
+
+    document.querySelector('.' + active.dataset.component).remove()
+    App.append(components[e.target.dataset.component])
+  }
+})

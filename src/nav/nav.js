@@ -6,9 +6,9 @@ const navbar = () => {
   component.classList.add('navbar')
 
   component.innerHTML = `
-    <a href='#home' class='selected'>Home</a>
-    <a href='#menu'>Menu</a>
-    <a href='#contact'>Contact</a>
+    <a href='#home' class='selected' data-component='home'>Home</a>
+    <a href='#menu' data-component='menu'>Menu</a>
+    <a href='#contact' data-component='contact'>Contact</a>
   `
 
   return component
