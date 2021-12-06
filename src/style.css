@@ -42,5 +42,6 @@ a {
   #content > div {
     width: calc(100vw - (2 * 30px));
     margin: 60px 30px;
+    height: auto;
   }
 }
