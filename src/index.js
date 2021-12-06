@@ -5,6 +5,6 @@ import './style.css'
 
 const app = document.querySelector('#content')
 
-// app.append(home())
+app.append(home())
 // app.append(menu())
-app.append(contact())
+// app.append(contact())

@@ -1,9 +1,10 @@
 import './home.css'
+import Cover from '../images/cover.webp'
 
 const home = () => {
   const container = document.createElement('div')
   const headline = document.createElement('div')
-  const coverImage = document.createElement('img')
+  const coverImage = new Image()
 
   container.classList.add('home')
   headline.classList.add('headline')
@@ -14,7 +15,7 @@ const home = () => {
     <p>There are countries where wine is as natural as water and air, so here you can drink it in a carefree, cosy atmosphere <strong>without bloat</strong>.</p>
   `
 
-  coverImage.src = "../src/images/cover.jpg"
+  coverImage.src = Cover
   coverImage.alt = "Small round table topped with a wine bottle and glasses."
 
   container.append(headline)
