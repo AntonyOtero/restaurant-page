@@ -3,6 +3,7 @@
 }
 
 address {
+  padding-left: 20px;
   font-style: normal;
 }
 
@@ -16,7 +17,7 @@ address a {
 }
 
 form {
-  width: 560px;
+  max-width: 560px;
   display: flex;
   flex-direction: column;
 }
@@ -68,4 +69,46 @@ button {
   width: 180px;
   height: 45px;
   align-self: flex-end;
+}
+
+@media (max-width: 1050px) {
+  .contact {
+    flex-direction: column-reverse;
+  }
+
+  address {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  address p {
+    font-size: var(--font-size-h2);
+  }
+
+  address a {
+    font-size: var(--font-size-h3);
+  }
+
+  button {
+    align-self: center;
+  }
+}
+
+@media (max-width: 520px) {
+  address p {
+    font-size: var(--font-size-h4);
+  }
+
+  address a {
+    font-size: var(--font-size-h5);
+  }
+
+  form > div {
+    flex-direction: column;
+  }
+
+  input[name='pronoun'],
+  input[name='name'] {
+    width: 100%;
+  }
 }
