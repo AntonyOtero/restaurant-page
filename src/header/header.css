@@ -14,3 +14,16 @@ header {
   max-width: 230px;
   margin: 20px 0 0 100px;
 }
+
+@media (max-width: 1200px) {
+
+  header.logo-sm {
+    justify-content: center;
+  }
+
+  header img,
+  .logo-sm img {
+    max-width: 230px;
+    margin: 20px 0 0 0;
+  }
+}

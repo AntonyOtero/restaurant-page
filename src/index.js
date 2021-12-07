@@ -29,6 +29,8 @@ Navbar.addEventListener('click', (e) => {
 
     document.querySelector('.' + active.dataset.component).remove()
     App.append(components[e.target.dataset.component])
+    document.querySelector('footer').remove()
+    App.append(footer())
 
     if(e.target.dataset.component !== 'home') {
       document.querySelector('header').classList.add('logo-sm')
