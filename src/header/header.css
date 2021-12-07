@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+
+.logo-sm {
+  justify-content: left;
+}
+
+.logo-sm img {
+  max-width: 230px;
+  margin: 20px 0 0 100px;
+}

@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 15px 0;
+  border-bottom: 3px solid var(--color-copy);
+  position: fixed;
+  width: 90vh;
+  margin: 5vh 0;
+  left: 0;
+  bottom: 0;
+  transform-origin: top left;
+  transform: rotate(-90deg) translateX(-59px);
+}
+
+.navbar a {
+  margin: 0 20px;
+  padding: 5px 12px;
+  font-weight: 700;
+  font-size: var(--font-size-sm);
+  border-radius: 50px;
+}
+
+.navbar .selected {
+  background: var(--color-copy);
+  color: var(--color-background);
+}

@@ -2,38 +2,38 @@
   justify-content: space-between;
 }
 
-address {
+.contact address {
   padding-left: 20px;
   font-style: normal;
 }
 
-address p {
+.contact address p {
   font-size: var(--font-size-h2);
   font-weight: 700;
 }
 
-address a {
+.contact address a {
   font-size: var(--font-size-h3);
 }
 
-form {
+.contact form {
   max-width: 560px;
   display: flex;
   flex-direction: column;
 }
 
-legend {
+.contact legend {
   font-size: var(--font-size-h3);
   margin: 0 0 20px;
 }
 
-form > div {
+.contact form > div {
   display: flex;
 }
 
-input,
-textarea,
-button {
+.contact input,
+.contact textarea,
+.contact button {
   background: transparent;
   color: var(--color-copy);
   border: 2px solid var(--color-copy);
@@ -41,31 +41,31 @@ button {
   box-sizing: border-box;
 }
 
-input,
-textarea {
+.contact input,
+.contact textarea {
   padding: 13px 0 13px 20px;
   margin: 0 0 20px 0;
   opacity: 75%;
 }
 
-textarea {
+.contact textarea {
   height: 135px;
 }
 
-input[name='pronoun'],
-input[name='name'] {
+.contact input[name='pronoun'],
+.contact input[name='name'] {
   width: 50%;
 }
 
-input[name='pronoun'] {
+.contact input[name='pronoun'] {
   margin-right: 20px;
 }
 
-input[name='message'] {
+.contact input[name='message'] {
   height: 135px;
 }
 
-button {
+.contact button {
   width: 180px;
   height: 45px;
   align-self: flex-end;
@@ -76,39 +76,39 @@ button {
     flex-direction: column-reverse;
   }
 
-  address {
+  .contact address {
     text-align: center;
     margin-bottom: 40px;
   }
 
-  address p {
+  .contact address p {
     font-size: var(--font-size-h2);
   }
 
-  address a {
+  .contact address a {
     font-size: var(--font-size-h3);
   }
 
-  button {
+  .contact button {
     align-self: center;
   }
 }
 
 @media (max-width: 520px) {
-  address p {
+  .contact address p {
     font-size: var(--font-size-h4);
   }
 
-  address a {
+  .contact address a {
     font-size: var(--font-size-h5);
   }
 
-  form > div {
+  .contact form > div {
     flex-direction: column;
   }
 
-  input[name='pronoun'],
-  input[name='name'] {
+  .contact input[name='pronoun'],
+  .contact input[name='name'] {
     width: 100%;
   }
 }
