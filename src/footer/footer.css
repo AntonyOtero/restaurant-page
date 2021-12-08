@@ -39,7 +39,6 @@ footer .schedule {
   footer {
     flex-direction: column-reverse;
     align-items: center;
-    justify-content: center;
     text-align: center;
   }
 }
