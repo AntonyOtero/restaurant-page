@@ -1,63 +1,32 @@
 # Restaurant Page
 
-> One paragraph statement about the project.
+> A simple restaurant page to practice utilizing JavaScript for dynamic rendering. Aside from a hard coded `<div>` element with an id of `#content`, DOM elements are generated through JavaScript using ES6 Modules. Use of npm and Webpack is also explored in this project for my first time.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./app-screenshot.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript
+- Npm
+- Webpack
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://antonyotero.github.io/restaurant-page/#home)
 
+## Author
 
-## Getting Started
+👤 **Antony Otero**
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@AntonyOtero](https://github.com/AntonyOtero)
+- Twitter: [@AntonyOtero](https://twitter.com/AntonyOtero)
+- LinkedIn: [AntonyOtero](https://linkedin.com/in/antonyotero)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/AntonyOtero/restaurant-page/issues).
 
 ## Show your support
 
@@ -65,9 +34,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [Microverse](https://www.microverse.org/)
+- [The Odin Project](https://www.theodinproject.com/)
+- [SuperHi](https://www.superhi.com/)
+- [Khroma](http://khroma.co/) by [@GeorgeHastings](https://github.com/georgehastings)
 
 ## 📝 License
 
