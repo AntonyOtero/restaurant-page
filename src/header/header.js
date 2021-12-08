@@ -1,7 +1,7 @@
 import './header.css'
 import logoSrc from '../images/logo-lg.png'
 
-export const header = () => {
+const header = () => {
   const component = document.createElement('header')
   const logo = new Image()
 
@@ -12,3 +12,5 @@ export const header = () => {
 
   return component
 }
+
+export {header}
