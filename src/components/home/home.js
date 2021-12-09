@@ -1,5 +1,5 @@
 import './home.css'
-import Cover from '../images/cover.webp'
+import Cover from '../../images/cover.webp'
 
 const home = () => {
   const container = document.createElement('div')
