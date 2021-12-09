@@ -1,9 +1,9 @@
-import {navbar} from './nav/nav'
-import {header} from './header/header'
-import {footer} from './footer/footer'
-import {home} from './home/home'
-import {menu} from './menu/menu'
-import {contact} from './contact/contact'
+import {navbar} from './components/nav/nav'
+import {header} from './components/header/header'
+import {footer} from './components/footer/footer'
+import {home} from './components/home/home'
+import {menu} from './components/menu/menu'
+import {contact} from './components/contact/contact'
 import './style.css'
 
 const components = {
