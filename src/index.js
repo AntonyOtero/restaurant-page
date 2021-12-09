@@ -22,20 +22,22 @@ App.append(footer())
 const Navbar = document.querySelector('.navbar')
 
 Navbar.addEventListener('click', (e) => {
-  const active = document.querySelector('.selected')
-  if(e.target !== active){
-    active.classList.remove('selected')
-    e.target.classList.add('selected')
+  if (e.target.localName === 'a') {
+    const active = document.querySelector('.selected')
+    if(e.target !== active){
+      active.classList.remove('selected')
+      e.target.classList.add('selected')
 
-    document.querySelector('.' + active.dataset.component).remove()
-    App.append(components[e.target.dataset.component])
-    document.querySelector('footer').remove()
-    App.append(footer())
+      document.querySelector('.' + active.dataset.component).remove()
+      App.append(components[e.target.dataset.component])
+      document.querySelector('footer').remove()
+      App.append(footer())
 
-    if(e.target.dataset.component !== 'home') {
-      document.querySelector('header').classList.add('logo-sm')
-    } else {
-      document.querySelector('header').classList.remove('logo-sm')
+      if(e.target.dataset.component !== 'home') {
+        document.querySelector('header').classList.add('logo-sm')
+      } else {
+        document.querySelector('header').classList.remove('logo-sm')
+      }
     }
   }
 })
