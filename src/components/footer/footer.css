@@ -29,7 +29,6 @@ footer .schedule {
 @media (max-width: 1200px) {
   footer {
     position: relative;
-    padding-top: 15px;
     align-items: center;
     border-top: 3px solid var(--color-copy);
   }
@@ -40,5 +39,6 @@ footer .schedule {
     flex-direction: column-reverse;
     align-items: center;
     text-align: center;
+    padding: 20px 0;
   }
 }
